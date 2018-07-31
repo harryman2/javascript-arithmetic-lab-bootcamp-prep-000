@@ -27,11 +27,6 @@ function dec(a){
 }
 
 function makeInt(){
-  var a;
-  return a.toString();
-  
-  if(a == '0x2328'){
-    return  0;
-  }
+  a = parseInt('2x2')
   
 }
