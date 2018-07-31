@@ -27,6 +27,9 @@ function dec(a){
 }
 
 function makeInt(){
-  a = parseInt('2x2')
+  a = parseInt('0x2328', 10);
+  if(isNaN(a)){
+    return a.toString();
+  }
   
 }
